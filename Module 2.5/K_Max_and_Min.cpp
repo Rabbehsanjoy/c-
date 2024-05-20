@@ -1,0 +1,31 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+    int a,b,c;;
+    cin>>a>>b>>c;
+    int max=INT_MIN;
+    int min=INT_MAX;
+    if(a<=b && a<=c)
+    {
+        cout<<a<<" ";
+    }
+    else if(b<=a && b<=c)
+    {
+        cout<<b<<" ";
+    }
+    else{
+        cout<<c<<" ";
+    }
+    if(a>=b && a>=c){
+        cout<<a<<" ";
+    }
+    else if(b>=a && b>=c){
+        cout<<b<<" ";
+    }
+    else{
+        cout<<c<<" ";
+    }
+
+    return 0;
+}
