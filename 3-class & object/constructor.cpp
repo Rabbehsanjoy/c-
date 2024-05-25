@@ -16,7 +16,10 @@ public:
 };
 int main()
 {
-    Student rahim(29, 9, 4.5);
+    int n,p;
+    double c;
+    cin>>n>>p>>c;
+    Student rahim(n,p,c);
     cout<<rahim.roll<<" "<<rahim.cls<<" "<<rahim.gpa;
     return 0;
 }
